@@ -12,15 +12,11 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.JCheckBox;
 import javax.swing.JList;
 import javax.swing.*;
 import java.awt.event.*;
-import java.awt.*;
-import java.awt.Image;
-import java.io.File;
 import javax.swing.ImageIcon;
 
 public class FoodApplicationGUI extends JPanel implements ActionListener {
@@ -56,9 +52,9 @@ public class FoodApplicationGUI extends JPanel implements ActionListener {
   String[] timbitQuantity = {"0","1","2","3","4","5","6","7","8","9","10"};
   JList<String> timbitList = new JList<String>(timbitQuantity);
   String[] croissantQuantity = {"0","1","2","3","4","5","6","7","8","9","10"};
-  JList croissantList = new JList<String>(croissantQuantity);
+  JList<String> croissantList = new JList<String>(croissantQuantity);
   String[] bagelQuantity = {"0","1","2","3","4","5","6","7","8","9","10"};
-  JList bagelList = new JList<String>(bagelQuantity);
+  JList<String> bagelList = new JList<String>(bagelQuantity);
   
   // food prices - labels
   JLabel donutPriceLabel = new JLabel("$1.99");
