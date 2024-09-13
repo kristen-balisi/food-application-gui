@@ -1,6 +1,5 @@
-/* Name: Kristen Balisi   341426344
- * Date: 27/02/2023
- * Program Description: This program is a GUI Food Application for Tim Hortons. 
+/* Name: Tim Hortons Food App
+ * Description: This program is a GUI Food Application for Tim Hortons. 
  * It allows users to toggle between two frames using the order and back buttons. 
  * In the first frame, users may enter their details and choose food items from a menu. 
  * In the second frame, they can select delivery and payment options. After the user presses 
